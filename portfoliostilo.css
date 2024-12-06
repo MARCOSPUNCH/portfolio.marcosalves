@@ -1,0 +1,87 @@
+/*formatação para o corpo das paginas*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/*imagem background da pagina principla*/
+.imagemacft{
+    background-image: url(technology-8360611_1280.png);
+}
+
+/*formatação para o header*/
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+
+    /*class criada para dividir a cor do titulo pagina principal*/
+}
+.white{
+    color: #ffffff;
+}
+/*todos para essa cor*/
+#titulo{
+    color: #0066CC;
+}
+/* padding para todas as paginas*/
+div {
+    padding: 1rem;
+}
+/*class foi criada para alinhamento do bloco a esquerda*/
+.pag1{
+    float: left;
+    width: 25%;
+}
+/*formadtação para lista*/
+div ul {
+    list-style: none;
+    padding: 0;
+}
+
+div ul li {
+    margin: 1rem 0;
+}
+
+div ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}   
+
+div ul li a:hover {
+    color: #0066CC;
+}
+/*formatação para imagem foto de perfil*/
+.foto-perfil {
+    max-width: 200px;
+    border-radius: 50%;
+    padding: 10px;
+    float: right;
+    width: 75%; 
+}
+/*formatação footer*/
+footer {
+    clear: both;
+    text-align: center;
+    margin-top: 60px;
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+.cont{
+    text-align: left;
+    width: 10px;
+    padding: 10px;
+}
+.form{
+    padding: 10px;
+}
+.volt{
+    color: #0066CC;
+}
